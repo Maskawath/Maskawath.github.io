@@ -28,8 +28,8 @@ body {
     font-size: 1.1rem;
     font-family: 'Roboto Mono', monospace;
     line-height: 1.80857;
-    color: #4d4d4d;
-    background-color: #e5e5f7;
+    color: #4CBB01;
+    background-color:#191C27;
     opacity: 0.93;
     background-image:  linear-gradient(#61d850 2px, transparent 2px), linear-gradient(90deg, #61d850 2px, transparent 2px), linear-gradient(#61d850 1px, transparent 1px), linear-gradient(90deg, #61d850 1px, #e5e5f7 1px);
     background-size: 50px 50px, 50px 50px, 10px 10px, 10px 10px;
@@ -40,9 +40,9 @@ html, body{
 	height: 100%;
 }
 
-body.demos .section {
+/* body.demos .section {
     background: url(images/bg.png) repeat top center #f2f3f5;
-}
+} */
 
 body.demos .section-title img {
     max-width: 280px;
@@ -90,7 +90,7 @@ h6 {
     padding: 0 0 10px 0;
     font-weight: normal;
     line-height: 120% !important;
-    color: #333333;
+    color: #4CBB01;
     margin: 0
 }
 
@@ -482,6 +482,7 @@ xclip
     position: relative;
     overflow: hidden;
     padding: 70px 0;
+    background-color: #111111 !important;
 }
 
 .noover {
@@ -609,8 +610,8 @@ xclip
 }
 
 .sim-btn{
-	line-height: 50px;
-	height: 50px;
+	line-height: 40px;
+	height: 40px;
     background-color: #4CBB01;
 	text-align: center;
 	margin-right: auto;
@@ -2566,13 +2567,14 @@ background-color: aliceblue !important;
    color: #4CBB01 !important;
 }
 .branding{
-   background-color: aliceblue;
+   background-color: #111111;
 }
 
 .insdie-branding{
-    background-image: linear-gradient(90deg, #C70039 0%, #090979 35%, #00d4ff 100%);
+    /* background-image: linear-gradient(90deg, #C70039 0%, #090979 35%, #00d4ff 100%); */
     padding-top: 20px;
     padding-bottom: 20px;
+    border: 2px solid red;
 }
 
 .br-company{
